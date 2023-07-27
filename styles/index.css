@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+
+}
+#container {
+    margin: auto;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#containerBug {
+    margin: auto;
+    width: 80%;
+    height: 90vh;
+    border: 3px solid black;
+}
+
+.bug {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    user-select: none;
+    cursor: pointer;
+    display: inline;
+}
+#btnNewPlay {
+    padding: 5px 15px;
+    margin: auto;
+    bottom: 5px;
+    left: 45%;
+    position: absolute;
+
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+
+    border: 3px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+
+}

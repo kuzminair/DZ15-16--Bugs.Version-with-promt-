@@ -1,6 +1,6 @@
 var counterBugs=0;
 var bugsList;
-const timer = 600;
+const timer = 1000;
 
 start();
 
